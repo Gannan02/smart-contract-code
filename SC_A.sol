@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract ChallengeGenerator {
+contract SC_A {
     event Deposit(uint[] si, uint[] vi);
 
     function ChallGen(uint c) public returns (uint[] memory, uint[] memory) {
